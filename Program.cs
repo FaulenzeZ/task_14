@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 class Program
 {
     static void Main(string[] args)
@@ -11,5 +10,6 @@ class Program
         int _G = max - G;
         int _L = max - L;
         Console.WriteLine($"{_G} {_L}");
+        //простой тест 
     }
 }
